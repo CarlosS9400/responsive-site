@@ -209,13 +209,24 @@ a:focus {
         width: 25%;
         
     }
+    main {
+        
+        max-width: 78%;
+    }
 
+    aside {
+        
+        max-width: 20%;
+
+    }
     main,
     aside {
        
         padding: 3em;
         margin: 2em;
     }
+
+
 
     .article-image-right {
         width: 100%;
