@@ -134,9 +134,27 @@ a:focus {
     padding-bottom: 1em;
 }
 
-.article-featured .article-image{
-    order: -1;
+.article-featured .article-image {
+    order: 1;
 }
+
+.article-featured .article-info {
+    order: 2;
+}
+
+.article-featured .article-title {
+    order: 3;
+}
+
+.article-featured .article-body {
+    order: 4;
+}
+
+.article-featured .article-read-more {
+    order: 5;
+}
+
+
 
 
 
