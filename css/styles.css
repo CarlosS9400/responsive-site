@@ -149,6 +149,8 @@ a:focus {
     flex-direction: column;
 }
 
+
+
 .article-recent-main {
 
   order: 1;
@@ -179,18 +181,21 @@ a:focus {
 }
 
 
-@media (min-width: 769px) {
+@media (min-width: 675px) {
     
-    
+    .container {
+        max-width: 700px; 
+    }
     .container-flex {
 
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     
     }
 
     .article-recent {
-
+        
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -209,9 +214,10 @@ a:focus {
         width: 25%;
         
     }
+
     main {
-        
-        max-width: 78%;
+    
+        max-width: 80%;
     }
 
     aside {
@@ -219,14 +225,6 @@ a:focus {
         max-width: 20%;
 
     }
-    main,
-    aside {
-       
-        padding: 3em;
-        margin: 2em;
-    }
-
-
 
     .article-image-right {
         width: 100%;
