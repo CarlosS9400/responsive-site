@@ -5,6 +5,7 @@
  */
 
 /*navigation - layout*/
+
 body {
     font-family: 'Ubuntu', sans-serif;
     color:rgb(15, 16, 18);
@@ -20,6 +21,7 @@ img {
 }
 .current-page {
     border-bottom: 2px solid grey;
+    padding-bottom: 0.5em;
 
 }
 /* when the mouse hover, add an underline*/
@@ -58,7 +60,7 @@ h1 {
 }
 
 header {
-    max-width: 880px;
+    max-width: 980px;
     background-color: lightgrey;
     text-align: center;
     display: flex;
@@ -114,7 +116,7 @@ a:focus {
 /* body - layout */
 
 .container {
-   
+    
     max-width: 100%;
     margin: 0 auto;
 }
@@ -123,6 +125,7 @@ a:focus {
 
     display: flex;
     flex-direction: column;
+    
 
 }
 
@@ -196,14 +199,24 @@ a:focus {
     border-bottom: none;
 }
 
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    max-height: 10%;
+    max-width: 980px;
+    margin: auto;
+    padding: 1em 0;
+}
+
 @media (min-width: 736px) {
     
     .container {
         
         max-width: 800px; 
-       
         margin: 2em auto;
-        padding: 0 3em;
+        padding: 0 1em;
+        
     }
     .container-flex {
         
@@ -229,11 +242,6 @@ a:focus {
         width: 70%;
         padding: 0;
         margin: 0;
-       
-
-        
-     
-        
     }
 
     .article-recent-secondary {
@@ -243,9 +251,9 @@ a:focus {
     }
 
     main {
-    
+        
         max-width: 80%;
-        padding: 0em 2em;
+        
         
     }
 
@@ -293,85 +301,6 @@ a:focus {
 
 
 
-
-
-
-
-
-
-
-/*
-.container {
-    max-width: 400px;
-    margin: 0 auto;
-
-}
-
-.article-featured {
-    max-width: 100%;
-    
-}
-
-.article-recent {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 1em;
-    
-}
-
-.sidebar {
-    display: flex;
-    flex-direction: column;
-}
-
-.sidebar-widget {
-    border: 5px solid grey;
-    margin: 1em auto;
-    
-    padding: 1em;
-}
-
-@media (min-width: 675px) {
-    .container {
-        min-width: 100%;
-    }
-    .container-flex {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-
-    }
-
-    main {
-        width: 70%;
-        margin: auto;
-    }
-
-    aside {
-        width: 25%;
-        margin: auto;
-    }
-
-    .article-recent {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .article-recent-main {
-        width: 70%;
-        order: 2;
-    }
-
-    .article-recent-secondary {
-        width: 25%;
-        order: 1;
-    }
-
-
-
-    
-}
 
 
 
